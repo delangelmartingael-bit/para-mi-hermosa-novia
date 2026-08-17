@@ -309,7 +309,7 @@
     <!-- Pantalla 1: Inicio -->
     <div id="p1" class="screen active">
         <h1>Feliz Aniversario Mibida 💛</h1>
-        <img src="PORTADA.PNG" style="width: 150px; margin: 10px 0;">
+        <img src="PORTADA.png" style="width: 150px; margin: 10px 0;">
         <p>¿Quieres ver el regalo que hice para ti?</p>
         <div>
             <button class="btn" onclick="nextPage('p3')">Obviii</button>
@@ -320,39 +320,39 @@
     <!-- Pantalla 2: Persuasión -->
     <div id="p2" class="screen">
         <h1>Pero lo hice para ti:(... </h1>
-        <img src="SNOOPY TRISTE.PNG" style="width: 150px; margin: 10px 0;">
-        <p>¿Le das una oportunidad?</p>
+        <img src="SNOOPY TRISTE.png" style="width: 150px; margin: 10px 0;">
+        <p>Dale una oportunidad a Snoopy y a tu novio jskkjsk</p>
         <button class="btn" onclick="nextPage('p3')">Sí</button>
     </div>
 
     <!-- Pantalla 3: Confirmación -->
     <div id="p3" class="screen">
-        <h1>Te amo mi amor!!! 💛</h1>
-        <img src="SNOOPY FELIZ.PNG" style="width: 150px; margin: 10px 0;">
-        <p>Este sitio web es solo para ti!</p>
-        <button class="btn" onclick="nextPage('p-menu')">Siguiente</button>
+        <h1>TE AMO MI AMOOOOOOR 💛</h1>
+        <img src="SNOOPY FELIZ.png" style="width: 150px; margin: 10px 0;">
+        <p>Lo hice solo para ti! jiji</p>
+        <button class="btn" onclick="nextPage('p-menu')">Quiero verrr</button>
     </div>
 
     <!-- Pantalla 4: Menú Principal de Regalos -->
     <div id="p-menu" class="screen">
-        <h1>Regalos para ti! 🎁</h1>
-        <p>Haz click en uno para continuar</p>
+        <h1>REGALOSS PARA TIIII</h1>
+        <p>haz clic en el que quieras corazoncitoo</p>
         <div class="gift-grid">
             <div class="gift-card" onclick="nextPage('sec-cancion')">
-                <img src="SNOOPY MU.PNG" style="width: 150px; margin: 10px 0;">
-                <small>Canción</small>
+                <img src="SNOOPY MU.png" style="width: 150px; margin: 10px 0;">
+                <small>Una Canción que me Recuerda a tiii</small>
             </div>
             <div class="gift-card" onclick="nextPage('sec-flores')">
                 <img src="SNOOPY TULIP.PNG" style="width: 150px; margin: 10px 0;">
-                <small>Flores</small>
+                <small>Una Flor para la Flor más Bella jiji</small>
             </div>
             <div class="gift-card" onclick="nextPage('sec-fotos')">
-                <img src="SCAMARA.PNG" style="width: 150px; margin: 10px 0;">
-                <small>Fotos</small>
+                <img src="SCAMARA.png" style="width: 150px; margin: 10px 0;">
+                <small>Nuestras fotitoooss</small>
             </div>
             <div class="gift-card" onclick="nextPage('sec-vela')">
-                <img src="CARTITA1.PNG" style="width: 150px; margin: 10px 0;">
-                <small>Sopla la vela</small>
+                <img src="CARTITA1.png" style="width: 150px; margin: 10px 0;">
+                <small>Algo que decirte...</small>
             </div>
         </div>
     </div>
@@ -360,7 +360,7 @@
     <!-- Sección: Canción -->
     <div id="sec-cancion" class="screen">
         <button class="back-btn" onclick="nextPage('p-menu')">✖</button>
-        <h1>Te dedico esta canción 🎶</h1>
+        <h1>Te dedico esta canción miamooorrr!!🎶</h1>
         <div class="split-box">
             <div class="split-card">
                 <div class="vinyl-wrapper">
@@ -378,7 +378,7 @@
             </div>
 
             <div class="split-card">
-                <p>Te dedico esta canción porque cada palabra me hace pensar en ti y en todo lo que siento cuando estamos juntos... 💛</p>
+                <p>Te dedico esta canción porque cada palabra me hace pensar en ti y en todo lo que siento cuando estamos juntos teamo muchooo Eliiii💛</p>
                 <img src="SNOOPY MU2.PNG" style="width: 150px; margin: 10px 0;">
             </div>
         </div>
@@ -387,8 +387,8 @@
     <!-- Sección: Flores (Ramo Centrado e Interactivo) -->
     <div id="sec-flores" class="screen">
         <button class="back-btn" onclick="nextPage('p-menu')">✖</button>
-        <h1>Te mereces flores en tu día especial 🌷</h1>
-        <p><small>¡Toca el ramo de tulipanes para ver tus mensajes! ✨</small></p>
+        <h1>PARA LA MUJER MÁS BELLA DEL UNIVERSOOOOO🌷</h1>
+        <p><small>¡Toca el ramitooo sjkwjks!</small></p>
         
         <div class="flowers-center-layout">
             <!-- Ramo idéntico en SVG (Centrado) -->
@@ -470,10 +470,10 @@
 
             <!-- Contenedor para mostrar mensajes paulatinamente -->
             <div class="messages-container">
-                <div id="note-1" class="note-bubble">Eres mi persona favorita en todo el mundo ✨</div>
-                <div id="note-2" class="note-bubble">Contigo he creado mis recuerdos más bonitos 💖</div>
-                <div id="note-3" class="note-bubble">Eres mi lugar seguro y mi paz 🏡</div>
-                <div id="note-4" class="note-bubble">Te amo de aquí hasta el infinito y mucho más 🚀</div>
+                <div id="note-1" class="note-bubble">Eres mi persona favorita :3</div>
+                <div id="note-2" class="note-bubble">Contigo he creado mis recuerdos más bonitos, preciosaaa</div>
+                <div id="note-3" class="note-bubble">Eres mi lugar seguro, en tus ojos encuentro el universo</div>
+                <div id="note-4" class="note-bubble">Te amo y NUNCA dejaré de adorarte mi amor :3</div>
             </div>
         </div>
     </div>
@@ -481,19 +481,19 @@
     <!-- Sección: Fotos Polaroid -->
     <div id="sec-fotos" class="screen">
         <button class="back-btn" onclick="nextPage('p-menu')">✖</button>
-        <h1>Mis fotos favoritas 📸</h1>
+        <h1>Nuestras primeras fotos como familia :3 (ahí está mi hijo jsjijikji)</h1>
         <div class="polaroid-grid">
             <div class="polaroid">
-                <img src="ELIONE.JPEG" style="width: 150px; margin: 10px 0;">
+                <img src="ELIONE.jpeg" style="width: 150px; margin: 10px 0;">
             </div>
             <div class="polaroid">
-                <img src="ELITHREE.JPEG" style="width: 150px; margin: 10px 0;">
+                <img src="ELITHREE.jpeg" style="width: 150px; margin: 10px 0;">
             </div>
             <div class="polaroid">
-                <img src="ELITWO.JPEG" style="width: 150px; margin: 10px 0;">
+                <img src="ELITWO.jpeg" style="width: 150px; margin: 10px 0;">
             </div>
             <div class="polaroid">
-                <img src="ELIFOUR.JPEG" style="width: 150px; margin: 10px 0;">
+                <img src="ELIFOUR.jpeg" style="width: 150px; margin: 10px 0;">
             </div>
         </div>
     </div>
@@ -501,22 +501,22 @@
     <!-- Sección: Sopla la vela -->
     <div id="sec-vela" class="screen">
         <button class="back-btn" onclick="nextPage('p-menu')">✖</button>
-        <h1>Sopla la vela mi amor!! 🎂</h1>
-        <img src="CARTITA2.PNG" style="width: 200px; height: auto; cursor: pointer;" onclick="nextPage('sec-carta')" alt="Snoopy Pastel">
+        <h1>Snoopy tiene algo que darteee!</h1>
+        <img src="CARTITA2.png" style="width: 200px; height: auto; cursor: pointer;" onclick="nextPage('sec-carta')" alt="Snoopy Pastel">
         
-        <p><small>Haz clic en el pastel para apagar las velas</small></p>
+        <p><small>Presiona aquiii para ver tu sorpresaaaa</small></p>
     </div>
 
     <!-- Sección: Carta Final -->
     <div id="sec-carta" class="screen">
         <button class="back-btn" onclick="nextPage('p-menu')">✖</button>
-        <h1>Feliz cumpleaños mi bella novia! 💌</h1>
+        <h1>SOY EL CHICO MÁS AFORTUNADO DE SOLO TENERTEEE</h1>
         <div class="letter-box">
             <p><strong>Espero que te guste mi pequeña sorpresa amor:</strong></p>
-            <p>Feliz cumpleaños. Hoy quiero recordarte lo especial que eres y lo bonito que es tenerte en mi vida. Deseo de corazón que este nuevo año venga lleno de momentos que te hagan sonreír, sueños que poco a poco se hagan realidad y personas que sepan valorar el gran corazón que tienes.</p>
-            <p>Que este cumpleaños sea solo el comienzo de un año lleno de recuerdos inolvidables... 💛</p>
+            <p>Estoy tan orgulloso de ti. Eli, le has dado color a mi vida, amo cada lunar tuyo, cada facción, cada risa contigo... Y NO LA CAMBIARÍA POR NADA, me haces sentir tan feliz y tan amado y esto es solo una prueba de ello.</p>
+            <p>Por siempre voy a adorarte, siempre será como las primeras veces :3 TEAMO!💛</p>
         </div>
-        <img src="CARTITA3.PNG" style="width: 150px; margin: 10px 0;">
+        <img src="CARTITA3.png" style="width: 150px; margin: 10px 0;">
     </div>
 
     <script>
